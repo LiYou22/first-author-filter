@@ -1,0 +1,25 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Scholar First-Author Filter</title>
+  <style>
+    body { font: 13px/1.5 system-ui, sans-serif; margin: 16px; width: 380px; }
+    h1 { font-size: 15px; margin: 0 0 8px; }
+    p { color: #555; margin: 0 0 8px; }
+    textarea { width: 100%; height: 110px; font: inherit; box-sizing: border-box; }
+    #status { color: #188038; margin-left: 8px; }
+  </style>
+</head>
+<body>
+  <h1>Extra name variants</h1>
+  <p>
+    One per line. Use these when a profile's papers list the author under a
+    different spelling (maiden name, transliteration, middle initial), e.g.
+    <code>Li You</code> or <code>Y. Li</code>.
+  </p>
+  <textarea id="aliases" spellcheck="false"></textarea>
+  <p><button id="save" type="button">Save</button><span id="status"></span></p>
+  <script src="options.js"></script>
+</body>
+</html>

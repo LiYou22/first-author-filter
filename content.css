@@ -1,0 +1,41 @@
+.faf-hidden {
+  display: none !important;
+}
+
+#faf-panel {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 6px 0 10px;
+  font-size: 13px;
+}
+
+#faf-btn {
+  cursor: pointer;
+  border: 1px solid #d0d0d0;
+  border-radius: 3px;
+  background: #f8f9fa;
+  color: #222;
+  padding: 4px 10px;
+  font: inherit;
+}
+
+#faf-btn:hover {
+  background: #f1f3f4;
+}
+
+#faf-btn[data-faf-mode="first"] {
+  background: #1a73e8;
+  border-color: #1a73e8;
+  color: #fff;
+}
+
+#faf-btn[data-faf-mode="notfirst"] {
+  background: #5f6368;
+  border-color: #5f6368;
+  color: #fff;
+}
+
+#faf-count {
+  color: #777;
+}
